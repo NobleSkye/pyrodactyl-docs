@@ -57,7 +57,8 @@ const buildTimes = [
 	{ name: "Pyrodactyl (Vite and Turbo)", time: "87 ms", width: "1.145%", highlight: true },
 	{ name: "Pterodactyl v1 (Webpack 4)", time: "35.3 sec", width: "77.7%" },
 	{ name: "Pterodactyl v2 (Webpack 4)", time: "39.42 sec", width: "87.62%" },
-	{ name: "Pelican (Webpack 4)", time: "40.9 sec", width: "90.88%" },
+	// Outdated
+	// { name: "Pelican (Webpack 4)", time: "40.9 sec", width: "90.88%" },
 ];
 
 const Page = () => {
@@ -145,6 +146,9 @@ const Page = () => {
 						<p className="text-xs max-w-sm opacity-50 mt-4">
 							Tested on a 16-inch Macbook Pro, M3 Max, 48 GB RAM. Caching options for Webpack and Turbo were enabled. Build commands were run in
 							iTerm2 with no other applications active. npm v10.8.1.
+						</p>
+						<p className="text-xs max-w-sm opacity-50">
+							<strong>Note:</strong> These benchmarks were done in 2024 and may not represent current build times.
 						</p>
 					</div>
 				</div>
